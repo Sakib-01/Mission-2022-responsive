@@ -298,3 +298,167 @@ span{
     line-height: 24px;
 
 }
+
+/* resposive for phone */
+
+@media screen and (max-width: 480px) {
+
+    .banner-container{
+        /* border: 2px solid red; */
+        margin: 0px auto;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner-text h1{
+        width: 100%;
+        /* border: 2px solid rgb(12, 224, 203); */
+    }
+    .banner-text h1::before{
+        content: none; 
+        /* border: 2px solid rgb(12, 224, 203); */
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .banner-text p {
+        width: 100%;
+        padding: 5px;
+    }
+    .btn {
+        margin-left: 5px;
+    }
+    .banner-pic{
+        margin: 0px auto;
+        margin-bottom: 120px;
+        
+    }
+    .banner-pic img{
+        border: 2px solid red;
+        margin: 0px auto;
+        
+    }
+    .misson-container {
+        /* border: 2px solid red; */
+        width: 100%; 
+        height: auto;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .misson-card {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 0px auto;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    .develop-container {
+        /* border: 2px solid rgb(21, 0, 255); */
+        width: 100%; 
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .develop-content-1 {
+        /* border: 2px solid red; */
+        width: 100%; 
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .develop-content-2{
+        /* border: 2px solid red; */
+        width: 100%; 
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .develop-image  {
+        /* border: 2px solid green; */
+        margin: 0px auto;
+        width: 100%;
+    }
+    .develop-image img {
+        /* border: 2px solid green; */
+        margin: 0px auto;
+        width: 100%;
+    }
+    .develop-text {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #shape , #shape-2{
+        display: none;
+    }
+
+    .build-app-container {
+        /* border: 2px solid red;  */
+        width: 100%; 
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .build-app-card {
+        /* border: 2px solid red;  */
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    #app-shape-1{
+        position: absolute;
+        left: -30px;
+        top: -30px;
+    }
+    #app-shape-2{
+        position: absolute;
+        left: 160px;
+        top: 300px;
+    }
+    #app-shape-3{
+        position: absolute;
+        left: -10px;
+        top: 390px;
+    }
+
+    .build-app-card-text {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        text-align: left;
+        padding: 10px;
+    }
+    .build-app-card-text h3 {
+        width: 100%;
+        height: auto;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .footer-conteiner {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0px auto;
+        background-color: black;
+        color: white;
+        padding: 0px;
+    }
+}
