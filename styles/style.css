@@ -22,15 +22,17 @@ span{
 }
 .banner-text h1{
     width: 503px;
-    margin-left: 10px;
     height: 160px;
     font-size: 60px;
     font-weight: 400;    
     line-height: 80px;    
-    letter-spacing: 0px
+    letter-spacing: 0px;
+    border-left: 5px solid #ef400b;
+    padding-left: 5px;
+
 
 }
-.banner-text h1::before{
+/* .banner-text h1::before{
     
     content: '';
     position: absolute;
@@ -45,7 +47,7 @@ span{
     
     bottom: -121px;    
     background-color: #ef400b; 
-}
+} */
 
 .banner-text p{
     font-size: 18px;
